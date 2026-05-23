@@ -17,3 +17,11 @@ int division(int a, int b){
     }
     return a / b;
 }
+
+int potencia(int base, int exponente) {
+    int resultado = 1;
+    for (int i = 0; i < exponente; i++) {
+        resultado *= base;
+    }
+    return resultado;
+}
